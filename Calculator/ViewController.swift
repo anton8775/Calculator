@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Calculator
-//
-//  Created by Антон Яценко on 20.09.2022.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -15,8 +8,6 @@ class ViewController: UIViewController {
     var operation:Int = 0;
     
     @IBOutlet weak var result: UILabel!
-    
-    
     
     @IBAction func digits(_ sender: UIButton) {
         if mathSign == true{
@@ -70,11 +61,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -82,4 +68,3 @@ class ViewController: UIViewController {
 
 
 }
-
